@@ -21,13 +21,13 @@ yarn add turboencabulator
 
 ## How to Use
 
-Initialize it in your script like so:
+Initialize it in your script like so (ESM modules):
 
 ```js
 import turboencabulator from "turboencabulator";
 ```
 
-Or like so:
+Or like so (CommonJS):
 
 ```js
 require("turboencabulator")
