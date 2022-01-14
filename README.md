@@ -27,4 +27,10 @@ Initialize it in your script like so:
 import turboencabulator from "turboencabulator";
 ```
 
+Or like so:
+
+```js
+require("turboencabulator")
+```
+
 That should do it. Check the console logs to make sure it's initiated.
