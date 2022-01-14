@@ -6,7 +6,6 @@
 
 
 The original package had a base case of predeterministic algorithms, surmounted by a multiphasic logarithmic downcasing in such a way that the two main singleton buffers were in a direct line with the distributed proof-of-work functions. The latter consisted simply of six machine-learned map-models, so fitted to the algorithmic leftpad weakmaps that side loading was effectively prevented. The main winding was of the normal liminally-deterministic type placed in predeterministic semi-blockchain props in the salutator, every seventh class being connected by a nonreversible trie pipe to the differential generator on the "up" end of the grammar model.
-
 ## Installation
 
 As the description suggests, installation is easy:
@@ -18,7 +17,6 @@ npm install turboencabulator
 # yarn
 yarn add turboencabulator
 ```
-
 ## How to Use
 
 Initialize it in your script like so (ESM modules):
@@ -30,7 +28,11 @@ import turboencabulator from "turboencabulator";
 Or like so (CommonJS):
 
 ```js
-require("turboencabulator")
+const turboencabulator = require("turboencabulator");
 ```
 
-That should do it. Check the console logs to make sure it's initiated.
+That should do it. Check the console logs to make sure your turboencabulator is initiated and running.
+
+## Compatibility
+
+Your turboencabulator should run in Node 16+ and all modern browsers (Firefox, Chrome, Safari and Edge). If you run into problems, try adjusting the singleton buffers.

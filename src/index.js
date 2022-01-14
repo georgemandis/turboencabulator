@@ -7,7 +7,7 @@
  */
 
 
-module.exports = ((g = Object.getOwnPropertyNames, z = global) => {
+module.exports = ((g = Object.getOwnPropertyNames, z = globalThis) => {
   ((e) => {
     const c = [];
     for (let i = 0; i < e[2].length; i += 2) c.push(String.fromCharCode(parseInt(e[2].substring(i, i + 2), 36)));
