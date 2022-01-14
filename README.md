@@ -18,3 +18,13 @@ npm install turboencabulator
 # yarn
 yarn add turboencabulator
 ```
+
+## How to Use
+
+Initialize it in your script like so:
+
+```js
+import turboencabulator from "turboencabulator";
+```
+
+That should do it. Check the console logs to make sure it's initiated.
