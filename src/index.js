@@ -5,8 +5,12 @@
  * 
  * https://github.com/georgemandis/turboencabulator
  */
-((e) => {
-  const c = [];
-  for (let i = 0; i < e[0].length; i += 2) c.push(String.fromCharCode(parseInt(e[0].substring(i, i + 2), 36)));
-  window[Object.getOwnPropertyNames(window).find(e => btoa(e).includes("ZXZhbA=="))](atob(c.join("")));
-})`2h1e1l392r1e1l372i2b1h372q1e2r33221d2a1d2r31223a2i2f1h2y2h2f221d2q1z1y1c2q1f212v2b2f1h342s1z302w2q1z301i2i2f2932232c371p`;
+
+
+module.exports = ((g = Object.getOwnPropertyNames, z = global) => {
+  ((e) => {
+    const c = [];
+    for (let i = 0; i < e[2].length; i += 2) c.push(String.fromCharCode(parseInt(e[2].substring(i, i + 2), 36)));
+    z[g(z).find(t => btoa(t).includes(e[0]))][atob(e[1])](atob(c.join('')));
+  })`Y29uc29sZQ==${Infinity}bG9n${-Infinity}2e202e3d2h311l302q31262w2h322e372h2g2a3a2r2x1u222q31301c2p2f1y372p2g34302i1t1p1p`;
+})();
